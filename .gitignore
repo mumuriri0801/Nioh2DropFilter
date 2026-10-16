@@ -1,0 +1,20 @@
+# 編譯產物
+bin/
+obj/
+.vs/
+*.user
+*.pdb
+*.ilk
+*.obj
+*.exe
+
+# 發布用 zip（放在 GitHub Release，不進 repo）
+dist/
+
+# 逆向輔助工具的編譯產物與記憶體快照（快照可達數 GB）
+tools/*/bin/
+
+# 執行時產生的檔案
+*.log
+*.watch.txt
+*.bak
